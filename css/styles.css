@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#principal{
+    background-color: bisque;
+}
+
+#listaFinalCarrito{
+    border: black solid 1px;
+    background-color: antiquewhite;
+    
+}
+
+#listaFinalCarrito ul{
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+    margin-top: 1em;
+}
+#listaFinalCarrito ul li{
+    margin-bottom:0.5em;
+}
